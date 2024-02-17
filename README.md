@@ -1,8 +1,13 @@
-# React + Vite
+Below is the sample output of this repo:
+![image](https://github.com/Berlinsr7/Context-API-Task/assets/69146984/84caf505-bfe6-43c9-9b78-43cf809d7c44)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Context API:
+In this React project, A cart page has been designed and all its functionalities has been kept inside a Context.
 
-Currently, two official plugins are available:
+UseContext: All the context functionalities are then utilized by the components by using the UseContext hook.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+What it does?
+It has a Json which has few data. Cart items has been displayed based on the JSON data.
+Each cart item has a increae and decrease buttons by which we can increase or decrease the quanitity.
+Along with that every time you change the quantiy the price is also been changed respectively.
+It also has a remove button which deletes that particular cart item off the list.
